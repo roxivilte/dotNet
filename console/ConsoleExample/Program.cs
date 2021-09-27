@@ -6,7 +6,16 @@ namespace ConsoleExample
     {
         static void Main(string[] args)
         {
-            NameExtensions.ValidateName();
+            var p = new Perro();
+            p.nombre = "Berlin";
+            p.Saltar();
+            p.Saludar();
+
+            Animal b = new Ballena();
+            b.nombre = "Wally";
+            b.Saludar();
+
+            //NameExtensions.ValidateName();
         }
     }
 }
